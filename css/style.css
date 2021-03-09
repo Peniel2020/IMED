@@ -1,7 +1,7 @@
 /* Website template by freewebsitetemplates.com */
 body {
 	/* background: url(../images/bg-body.jpg) repeat; */
-	color: #7e868c;
+	/* color: #7e868c; */
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	margin: 0;
@@ -282,7 +282,9 @@ p a:hover,
 	border-radius: 10px !important; 
 	background-color: #d9d9d9;
 	margin: 7px; 
-	flex-wrap: nowrap;
+	flex-wrap: nowrap; 
+	padding-right: 110px;
+    padding-left: 90px
 }
 
 .news h2{
@@ -451,7 +453,9 @@ p a:hover,
 	/* margin-right: 150px; */
 	border-radius: 10px !important; 
 	background-color: #d9d9d9;
-	flex-wrap: nowrap;
+	flex-wrap: nowrap; 
+	padding-right: 90px;
+    padding-left: 110px
 }
 
 #body div.body div div.help {
@@ -890,7 +894,7 @@ p a:hover,
 	font-family: 'Conv_BreeSerif-Regular';
 	font-size: 18px;
 	font-weight: normal;
-	margin: 0;
+	margin: 0 0 0 140px;
 	padding: 0 0 7px;
 	text-transform: uppercase;
 }
@@ -1142,9 +1146,10 @@ padding-right: 30%;
 #labienvenue{
 	font-family: 'Courgette', cursive; 
 	font-size:x-large; 
-	padding: 10px; 
-	padding: 15 0 0 5px;
-}
+	margin-right: 50px;
+	margin-left: 50px;
+	line-height: 50px;	
+}  
 
 .pastor-img{
 	margin: 7px; min-width: 340px; height: 420px
@@ -1155,6 +1160,8 @@ padding-right: 30%;
 		margin: 7px; min-width: unset; width: 75%; height: unset;
 	}
 	.imedNJ{
-		font-size: 1.5rem;
+		font-size: 1.5rem; 
+		padding-left: 100px;
+		padding-right: 100px;
 	}
   }
